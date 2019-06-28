@@ -1,6 +1,6 @@
 sp:
   user-service:
-    users: "[{\"id\":8, \"username\":\"def\",\"password\":\"456\"},{\"id\":9, \"username\":\"ghi\",\"password\":\"789\"}]"
+    users: "[]"
 
 spring:
   application:
