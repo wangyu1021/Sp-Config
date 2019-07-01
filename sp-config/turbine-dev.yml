@@ -13,3 +13,9 @@ eureka:
 turbine:
   app-config: order-service,zuul
   cluster-name-expression: new String("default")
+
+rabbitmq:
+    host: 176.135.28.27
+    port: 5672
+    username: admin
+    password: admin
