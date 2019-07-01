@@ -2,6 +2,12 @@ spring:
   application:
     name: turbin
     
+  rabbitmq:
+    host: 176.135.28.27
+    port: 5672
+    username: admin
+    password: admin
+    
 server:
   port: 5001
   
@@ -14,8 +20,3 @@ turbine:
   app-config: order-service,zuul
   cluster-name-expression: new String("default")
 
-rabbitmq:
-    host: 176.135.28.27
-    port: 5672
-    username: admin
-    password: admin
